@@ -1,0 +1,172 @@
+/* Header Styling */
+header {
+    font-family: 'Palatino Linotype';
+    background-image: url('hf-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 1.5em 0; /* Decrease padding to make the header smaller */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+/* Push the content below the smaller header */
+body {
+    background-image: url('bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Palatino Linotype'
+    margin: 0;
+    padding-top: 120px; /* Adjust to account for smaller header */
+    box-sizing: border-box;
+    color: #333;
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* Header Title Styling */
+.header-container h1 {
+    margin: 0;
+    font-size: 35px; /* Font size for header text */
+}
+
+/* Header Contact Info - Positioning at the Bottom Right */
+.header-contact {
+    position: absolute;
+    bottom: 10px; /* Position at the bottom */
+    right: 20px; /* Position to the right */
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.8em; /* Smaller text size */
+}
+
+.header-contact a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 0.8em; /* Smaller text size */
+}
+
+/* Specific Styling for Call Now and Email Us */
+.call-now, .email-link {
+    color: #fff; /* White color for "Call Now" and "Email Us" text */
+    font-weight: bold; /* Bold text */
+}
+
+.phone-number, .email-address {
+    color: #D4AF37; /* Shiny metallic gold color for phone number and email address */
+    background: linear-gradient(45deg, #D4AF37, #FFD700); /* Gradient effect for shiny metallic look */
+    -webkit-background-clip: text; /* Clip gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for shiny effect */
+}
+
+/* Email Icon */
+.email-icon {
+    width: 18px; /* Slightly smaller icon */
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em; /* Increase font size */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+/* Space Above the Contact Us Section */
+#contact {
+    margin-top: 1em; /* Adjust this value to decrease space above */
+}
+
+/* Service Item Styling */
+.service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+}
+
+.service-img {
+    width: 80%; /* Decrease image size */
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background-image: url('hf-image.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0; /* Increase padding for better spacing */
+    margin-bottom: 0;
+    font-family: 'Palatino Linotype'
+}
+
+/* Space Below the Email in the Footer */
+footer p {
+    margin-bottom: 0.5em; /* Adjust this value to decrease space below email */
+}
+
+/* Footer Contact Info in Gold Color */
+footer a {
+    color: #FFD700; /* Gold color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .copyright {
+    font-size: 0.9em;
+}
+
+/* WhatsApp Icon Styling */
+.whatsapp-icon {
+    width: 28px; /* Increase icon size if needed */
+    height: 28px;
+    vertical-align: middle;
+}
