@@ -194,4 +194,35 @@ section {
         font-size: 1.5vw; /* Slightly smaller text on larger screens */
     }
 }
+/* About Us Section Styling */
+#about {
+    max-width: 90%; /* Adjust this value for more/less width, 90% gives enough margin */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 2em; /* Padding for better spacing around the text */
+    text-align: justify; /* Ensures even distribution of text across lines */
+}
+
+/* About Us Section Text */
+#about p {
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+    line-height: 1.5; /* Slightly tighter line spacing for less vertical space */
+    color: #333;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    #about p {
+        font-size: 3.5vw; /* Larger text size for smaller screens */
+        line-height: 1.8; /* Slightly looser spacing for readability */
+    }
+}
+
+@media (min-width: 1024px) {
+    #about p {
+        font-size: 1.1vw; /* Adjust font size for larger screens */
+        max-width: 80%; /* Limit the text width on large screens */
+        line-height: 1.4;
+    }
+}
+
 
