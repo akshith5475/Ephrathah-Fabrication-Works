@@ -224,5 +224,30 @@ section {
         line-height: 1.4;
     }
 }
+/* About Us Section Styling */
+#about {
+    max-width: 90%; /* Adjust this value to control the section width */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 2em; /* Padding for better spacing */
+    text-align: center; /* Center-align the text */
+}
+
+/* About Us Section Text */
+#about p {
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+    line-height: 1.5; /* Line spacing for readability */
+    color: #333;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    #about p {
+        font-size: 3.5vw; /* Larger text size for smaller screens */
+        line-height: 1.8;
+    }
+}
+
+@media (min-width: 1024px)
+
 
 
