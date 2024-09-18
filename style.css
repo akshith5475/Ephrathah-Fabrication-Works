@@ -178,7 +178,7 @@ section {
 
 /* About Us Section Text */
 #about p {
-    font-size: 2vw; /* Text size adjusts with viewport width */
+    font-size: 1vw; /* Text size adjusts with viewport width */
     line-height: 1.6; /* Increase line height for readability */
     color: #333;
 }
